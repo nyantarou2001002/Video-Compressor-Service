@@ -5,8 +5,8 @@
 
 ## インストール
 
-1. Python 3.x をインストールします。
-2. `ffmpeg-python` パッケージをインストールします。
+
+`ffmpeg-python` パッケージをインストールします。
 
    ```bash
    pip install ffmpeg-python
@@ -16,18 +16,18 @@
 
 ### サーバーの起動
 
-1. `videocompressorservice_server.py` を実行してサーバーを起動します。
+1. `server.py` を実行してサーバーを起動します。
 
    ```bash
-   python videocompressorservice_server.py
+   python server.py
    ```
 
 ### クライアントからのリクエスト
 
-1. `videocompressorservice.py` を実行してクライアントとして動作させます。
+1. `client.py` を実行してクライアントとして動作させます。
 
    ```bash
-   python videocompressorservice.py
+   client.py
    ```
 
 2. プログラムは、コマンド番号、ファイル名、出力ファイル名の入力を求めます。
